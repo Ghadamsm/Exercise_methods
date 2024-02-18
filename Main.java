@@ -25,12 +25,13 @@ public class Main {
 
 //        2 - Write a Java method that check if the entered number is negative or positive or zero
 
-
+//
 //        System.out.println("please enter number : ");
 //        int num = s.nextInt();
-//        int positive = 0, negative = 0, zero = 0;
 //
-//        numbers(num , positive , negative , zero);
+//        numbers(num );
+
+
 
 
 //        3 - Write a Java method to check whether a string is a valid password. Password rules:
@@ -78,32 +79,27 @@ public class Main {
 //    }
 
 
+
         //   Q2
 
 
-//    public static void numbers ( int num , int positive , int negative , int zero ){
-//        Scanner scanner = new Scanner(System.in);
+//    public static void numbers ( int num){
 //
 //
-//        while (num != -1) {
-//            System.out.println("enter a number");
-//            num = scanner.nextInt();
 //
 //            if (num > 0) {
-//                positive++;
-//            } else if (num < 0) {
-//                negative++;
-//            } else {
-//                zero++;
-//            }
+//                System.out.println(num + " is positives ");
 //
-//        }
-//        System.out.println(positive + " positives ");
-//        System.out.println(negative + " negatives ");
-//        System.out.println(zero + " Zero ");
+//            } else if (num < 0) {
+//                System.out.println(num + " is negatives ");
+//            } else {
+//                System.out.println("the number is Zero ");
+//            }
 //
 //
 //    }
+
+
 
 
         //  Q3
